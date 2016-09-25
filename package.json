@@ -1,0 +1,21 @@
+{
+  "name": "dream-lister-api",
+  "version": "1.0.0",
+  "description": "API to support IOS dream-lister app, this allows creation, reading, updating and deleteion of dream items",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Byers",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-jwt": "^5.0.0",
+    "jsonwebtoken": "^7.1.9",
+    "pg": "^6.1.0",
+    "pg-native": "^1.10.0",
+    "squel": "^5.4.3"
+  }
+}
