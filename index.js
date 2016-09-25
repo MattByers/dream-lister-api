@@ -15,7 +15,7 @@ var bcrypt = require('bcrypt');
 const PORT = process.env.PORT || 5099;
 const TOKEN_SECRET = "Set me in the env variables";
 const SALT_ROUNDS = 10;
-const CONNECTION_STRING = "postgres://localhost:5432/dreamlister";
+const CONNECTION_STRING = process.env.DATABASE_URL;
 
 
 /*-------------------------------------------------- MIDDLEWARE --------------------------------------------------*/
